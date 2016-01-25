@@ -1,0 +1,9 @@
+.bundle
+_deploy.yml
+_site
+.DS_Store
+.sass-cache
+_deploy
+vendor
+node_modules
+Gemfile.lock

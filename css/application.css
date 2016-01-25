@@ -1,0 +1,75 @@
+html, body {
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  background: #00992e;
+  background-size: cover;
+}
+
+nav {
+  background-color: #333;
+  box-sizing: border-box;
+  opacity:.5;
+}
+
+nav ul {
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul, nav ul li {
+  list-style-type: none;
+  padding:.5em 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+
+section#content {
+  max-width:600px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+}
+
+#connections svg
+{
+  width:1.4em;
+  height:1.4em;
+}
+
+#connections .icon--email svg path#Shape {
+  fill: #00992e
+}
+
+ul#connections li {
+  display:inline;
+  margin-right:1em;
+  font-size:1.5em;
+}
+
+@media screen and (max-width:320px) {
+  ul#connections li:before
+  {
+     content:"\a";
+     white-space:pre;
+  }
+
+  ul#connections .icon--email{
+    left: -4px;
+    position: relative;
+  }
+}
+
+ul#connections li a {
+  color:inherit;
+  text-decoration: none;
+}
